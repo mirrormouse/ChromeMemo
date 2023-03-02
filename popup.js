@@ -57,7 +57,7 @@ function renderList(todos) {
         alert(todo.title);
       });
       let deleteBtn = document.createElement('button');
-      deleteBtn.textContent = '削除';
+      deleteBtn.textContent = '×';
       deleteBtn.addEventListener('click', function(event) {
         event.stopPropagation();
         chrome.runtime.sendMessage({ action: 'deleteTodo', title: todo.title }, function(response) {

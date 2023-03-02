@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "TODOリストの管理ができる拡張機能",
     "manifest_version": 3,
+    "icons": {
+      "128": "icon.png"
+    },
     "background": {
       "service_worker": "background.js"
     },
