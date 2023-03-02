@@ -2,13 +2,6 @@ let minimizeBtn = document.getElementById('minimizeBtn');
 let list = document.getElementById('list');
 let addBtn = document.getElementById('addBtn');
 
-// // ボタンクリックイベントのリスナーを登録
-// minimizeBtn.addEventListener('click', function() {
-//   // ウィンドウを最小化する
-//   chrome.windows.getCurrent(function(win) {
-//     chrome.windows.update(win.id, { state: 'minimized' });
-//   });
-// });
 
 addBtn.addEventListener('click', function() {
   // TODOを追加する
