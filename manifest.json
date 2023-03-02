@@ -1,0 +1,16 @@
+{
+    "name": "TODOリスト",
+    "version": "1.0.0",
+    "description": "TODOリストの管理ができる拡張機能",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
